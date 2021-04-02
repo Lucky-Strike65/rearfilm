@@ -1,5 +1,26 @@
-.container {
-  
+.contents .row {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.field_with_errors {
+  display: contents;
+}
+
+.field {
+  font-size: 30px;
+  margin-bottom: 25px;
+  border: none
+  animation: titleAnimation 1.5s;
+}
+
+.actions {
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 100%;
 }
